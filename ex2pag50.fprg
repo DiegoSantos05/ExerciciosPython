@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Diego"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-16 04:08:46 "/>
+        <attribute name="created" value="RGllZ287REVTS1RPUC1NR0JGOEZPOzIwMjQtMDMtMDk7IjA5OjU4OjQ3ICI7Mjc2OA=="/>
+        <attribute name="edited" value="RGllZ287REVTS1RPUC1NR0JGOEZPOzIwMjQtMDMtMTY7IjA0OjA4OjQ2ICI7MzsyODY1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="D" type="Real" array="False" size=""/>
+            <declare name="X1, X2, Y1, Y2" type="Integer" array="False" size=""/>
+            <output expression="&quot;qual valor de x1?&quot;" newline="True"/>
+            <input variable="X1"/>
+            <output expression="&quot;qual valor de y1?&quot;" newline="True"/>
+            <input variable="Y1"/>
+            <output expression="&quot;qual valor de x2?&quot;" newline="True"/>
+            <input variable="X2"/>
+            <output expression="&quot;qual valor de y2?&quot;" newline="True"/>
+            <input variable="Y2"/>
+            <assign variable="D" expression="sqrt (x2-x1)^2 + (y2-y1)^2"/>
+            <output expression="&quot;Distancia = &quot; &amp; D" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Diego"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-29 11:02:16 "/>
+        <attribute name="created" value="RGllZ287REVTS1RPUC1NR0JGOEZPOzIwMjQtMDMtMDk7IjA5OjU4OjQ3ICI7Mjc2OA=="/>
+        <attribute name="edited" value="RGllZ287REVTS1RPUC1NR0JGOEZPOzIwMjQtMDMtMjk7IjExOjAyOjE2ICI7NDsyODU5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Distancia" type="Real" array="False" size=""/>
+            <declare name="X1" type="Integer" array="False" size=""/>
+            <output expression="&quot;calcular distancia entre 2 pontos&quot;" newline="True"/>
+            <output expression="&quot;qual valor de X1?&quot;" newline="True"/>
+            <input variable="X1"/>
+            <declare name="X2" type="Integer" array="False" size=""/>
+            <output expression="&quot;qual valor de X2?&quot;" newline="True"/>
+            <input variable="X2"/>
+            <declare name="Y1" type="Integer" array="False" size=""/>
+            <output expression="&quot;qual valor de Y1?&quot;" newline="True"/>
+            <input variable="Y1"/>
+            <declare name="Y2" type="Integer" array="False" size=""/>
+            <output expression="&quot;qual valor de Y2?&quot;" newline="True"/>
+            <input variable="Y2"/>
+            <assign variable="Distancia" expression="sqrt(x2-x1)^2 +(y2-y1)^2"/>
+            <output expression="&quot;distancia=&quot; &amp; Distancia" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

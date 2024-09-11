@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Diego"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-18 09:10:34 "/>
+        <attribute name="created" value="RGllZ287REVTS1RPUC1NR0JGOEZPOzIwMjQtMDQtMTc7IjExOjMwOjAxICI7Mjc0MQ=="/>
+        <attribute name="edited" value="RGllZ287REVTS1RPUC1NR0JGOEZPOzIwMjQtMDQtMTg7IjA5OjEwOjM0ICI7MjsyODYy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="V1" type="Integer" array="True" size="20"/>
+            <input variable="V1[20]"/>
+            <declare name="I, J, Aux" type="Integer" array="False" size=""/>
+            <for variable="I" start="1" end="19" direction="inc" step="1">
+                <for variable="J" start="1" end="20-1" direction="inc" step="1">
+                    <while expression="J&gt;J+1"/>
+                </for>
+                <output expression="&quot;Escreva o valor de V1&quot;" newline="True"/>
+                <assign variable="V1[i]" expression="(20)"/>
+                <output expression="&quot;Escreva a posi&#231;&#227;o de V1&quot;" newline="True"/>
+                <input variable="V1[i]"/>
+            </for>
+            <for variable="" start="" end="" direction="inc" step=""/>
+        </body>
+    </function>
+</flowgorithm>

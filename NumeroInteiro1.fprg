@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Diego"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-05-01 10:46:19 "/>
+        <attribute name="created" value="RGllZ287REVTS1RPUC1NR0JGOEZPOzIwMjQtMDUtMDE7IjA3OjQ1OjMwICI7Mjc0OA=="/>
+        <attribute name="edited" value="RGllZ287REVTS1RPUC1NR0JGOEZPOzIwMjQtMDUtMDE7IjEwOjQ2OjE5ICI7MzsyODYw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o Primeiro N&#250;mero inteiro: &quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;Digite o Segundo N&#250;mero Inteiro: &quot;" newline="True"/>
+            <input variable="B"/>
+            <output expression="&quot;Digite o Terceiro N&#250;mero Inteiro: &quot;" newline="True"/>
+            <input variable="C"/>
+            <if expression="A&lt;B">
+                <then>
+                    <if expression="B&lt;C">
+                        <then>
+                            <output expression="A&amp;&quot;,&quot;&amp;B&amp;&quot;,&quot;&amp;C" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </then>
+                <else/>
+            </if>
+            <if expression="A&lt;C">
+                <then>
+                    <if expression="C&lt;B">
+                        <then>
+                            <output expression="A&amp;&quot;,&quot;&amp;C&amp;&quot;,&quot;&amp;B" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </then>
+                <else/>
+            </if>
+            <if expression="B&lt;A">
+                <then>
+                    <if expression="A&lt;C">
+                        <then>
+                            <output expression="B&amp;&quot;,&quot;&amp;A&amp;&quot;,&quot;&amp;C" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </then>
+                <else/>
+            </if>
+            <if expression="B&lt;C">
+                <then>
+                    <if expression="C&lt;A">
+                        <then>
+                            <output expression="B&amp;&quot;,&quot;&amp;C&amp;&quot;,&quot;&amp;A" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </then>
+                <else/>
+            </if>
+            <if expression="C&lt;A">
+                <then>
+                    <if expression="B&lt;A">
+                        <then>
+                            <output expression="C&amp;&quot;,&quot;&amp;A&amp;&quot;,&quot;&amp;B" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </then>
+                <else/>
+            </if>
+            <if expression="C&lt;B">
+                <then>
+                    <if expression="B&lt;A">
+                        <then>
+                            <output expression="C&amp;&quot;,&quot;&amp;B&amp;&quot;,&quot;&amp;A" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

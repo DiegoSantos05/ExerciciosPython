@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Diego"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-05-01 07:45:15 "/>
+        <attribute name="created" value="RGllZ287REVTS1RPUC1NR0JGOEZPOzIwMjQtMDUtMDE7IjA3OjE5OjEzICI7Mjc1MA=="/>
+        <attribute name="edited" value="RGllZ287REVTS1RPUC1NR0JGOEZPOzIwMjQtMDUtMDE7IjA3OjQ1OjE1ICI7MTsyODU5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o Primeiro N&#250;mero inteiro: &quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;Digite o Segundo N&#250;mero Inteiro: &quot;" newline="True"/>
+            <input variable="B"/>
+            <output expression="&quot;Digite o Terceiro N&#250;mero Inteiro: &quot;" newline="True"/>
+            <input variable="C"/>
+            <call expression="Crescente (A,B,C)"/>
+        </body>
+    </function>
+    <function name="Crescente" type="Integer" variable="A,B,C">
+        <parameters>
+            <parameter name="A" type="Integer" array="False"/>
+            <parameter name="B" type="Integer" array="False"/>
+            <parameter name="C" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <assign variable="A" expression="A&lt;B &amp; C&lt;B"/>
+            <if expression="A&lt;B">
+                <then>
+                    <output expression="A" newline="True"/>
+                    <output expression="B" newline="True"/>
+                    <output expression="C" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
